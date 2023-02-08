@@ -23,3 +23,27 @@ puts
 puts estados.first 
 puts estados.last
 puts estados.count
+
+# Está vazio?
+puts "A collection está vazia? #{estados.empty?}"
+vazio = []
+puts "A collection está vazia? #{vazio.empty?}"
+
+# Método de consulta, para saber se o valor x pertence ao array.
+puts "Existe a variável São Paulo na minha collection? #{estados.include?("São Paulo")}"
+puts "Existe a variável Elemento 0 na minha collection? #{estados.include?("Elemento 0")}"
+
+
+# Remover item por índice:
+estados.delete_at(0)
+puts estados
+puts
+
+# Remover último item
+estados.pop
+puts estados
+puts
+
+# Excluir o primeiro item
+estados.shift
+puts estados

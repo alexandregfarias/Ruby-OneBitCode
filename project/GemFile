@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'os' # Posso colocar quantas gems eu quiser aqui nesse arquivo.
+         # Quando soltar o comando bundle no terminal, na pasta onde o arquivo GemFile se encontra, todas as gems que foram aqui descritas serão instaladas.
+
+# Para instalar o bundler:
+# gem install bundler
+# cd project
+# 
